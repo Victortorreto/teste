@@ -1,0 +1,71 @@
+body { 
+    font-family: Arial, sans-serif; 
+} 
+/* Estilização da parte inicial*/
+header{
+    background-color: rgb(4, 4, 4);
+    padding: 20px;
+}
+.logo_caixa{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+.logo{
+    width: 50%;
+}
+
+.container { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+} 
+.form { 
+    padding: 20px; /*Muda o tamanho do quadrado*/ 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    background-color: #ebe40f; /*Muda a cor do quadrado*/ 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+h2 { 
+    margin-top: 0; 
+} input { 
+    display: block; 
+    width: 100%; 
+    margin-bottom: 10px; 
+    padding: 10px; /*Tamanho do quadrado para escrever*/
+    font-size: 16px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+}
+button { 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #4caf50; 
+    color: #fff; font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+     
+}
+ button:hover { 
+    background-color: #45a049;
+ }
+
+ /*Estilização do footer */
+ /*Ultima parte do site com a imagem */
+ footer{
+    text-align: center;
+    margin: 0 auto;
+    background-color:rgb(4, 4, 4);
+    padding: 10px 0px 30px 0;
+}
+.copyrigth{
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+.logo_footer{
+    width: 20%;
+}

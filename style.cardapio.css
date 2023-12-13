@@ -1,0 +1,103 @@
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    background-color: rgb(29, 28, 28);
+    padding: 20px;
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 60px;
+}
+nav a{
+    color: rgb(235, 29, 29);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+/*Estilização do link quando o mouse estiver em cima*/
+nav a:hover{
+    color: rgb(200, 209, 199);
+    text-decoration: underline;
+}
+.logo_cardapio{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+.logo{
+    width: 50%;
+    position: center;
+}
+/*Sobre a pizzaria Seu Pizza */
+.chocolate{
+    width: 20%;
+    padding: 0 0 0 250px;
+    float: left;   
+}
+.Mussarela{
+    width: 20%;
+    padding: 0 0 0 50px;
+    float: left;
+}
+.morango{
+    width: 20%;
+    padding: 0 0 0 50px;
+    float: left;
+}
+.titulo-pizza{
+    text-align: center;
+    clear: left;
+    font-size: 50px;
+    margin: 0;
+    padding: 50px 0 30px 0;
+}
+.sobre-pizzaria{
+    background-color: #f1ca08;
+    width: 100%; 
+}
+.posChoco{
+    padding: 0 0 0 280px;
+    float: left;
+    font-size: 20px;
+}
+.posMuss{
+    padding: 0 0 0 140px;
+    float: left;
+    font-size: 20px;
+}
+.posMora{
+    padding: 0 0 0 150px;
+    float: left;
+    font-size: 20px;
+}
+.valor1{
+    width: 20px;
+    
+}
+footer{
+    text-align: center;
+    margin: 0 auto;
+    background-color:black;
+    padding: 10px 0px 30px 0;
+}
+.copyrigth{
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+.logo_footer{
+    width: 20%;
+}
+
+
+ 

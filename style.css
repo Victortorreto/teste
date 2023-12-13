@@ -1,0 +1,123 @@
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    background-color: rgb(29, 28, 28);
+    padding: 20px;
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    color: rgb(235, 29, 29);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+/*Estilização do link quando o mouse estiver em cima*/
+nav a:hover{
+    color: rgb(200, 209, 199);
+    text-decoration: underline;
+}
+.logo_caixa{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+.logo{
+    width: 50%;
+}
+.banner{
+    width: 100%;
+}
+/*Sobre a pizzaria Seu Pizza */
+.pizza{
+    width: 10%;
+    float: left;
+    margin: 0 20px;
+    padding-left: 10%;
+}
+.titulo-pizza{
+    text-align: center;
+    clear: left;
+    font-size: 50px;
+    margin: 0;
+    padding: 50px 0 30px 0;
+}
+.sobre-pizzaria{
+    background-color: #fffffe;
+    width: 100%; 
+}
+/*Estilização da sessão do Nosso estabeleciento */
+.titulo-padrão{
+    text-align: center;
+    font-size: 2em;
+    padding: 30px 0 20px 0;
+    margin: 0;
+}
+.mapa{
+    text-align: center;
+    background: linear-gradient(#fffffe, rgb(38, 38, 66),rgb(78, 60, 60));
+}
+/*Estilização da sessão Benefícios */
+.beneficios{
+    background-color:rgb(78, 60, 60);
+} 
+.lista-beneficios{
+    list-style:🤷‍♂️;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 35%;
+}
+.lista-beneficios li{
+    line-height: 1.5;
+}
+.lista-beneficios li:before{
+    content:"🤷‍♂️";
+}
+.lista-beneficios li:first-child{
+    font-weight: bold;
+}
+.img_beneficios{
+    width: 150px;
+    box-shadow: 10px 10px 5px 0 black;
+    opacity: 1;
+    transition: 400ms;
+}
+.img_beneficios:hover{
+    opacity: 0.7;
+}    
+.conteudo-beneficios{
+ width: 100%;
+}
+.video{
+    padding-left: 25%;
+}
+/*Estilizaçaõ do Footer*/
+footer{
+    text-align: center;
+    margin: 0 auto;
+    background-color:black;
+    padding: 10px 0px 30px 0;
+}
+.copyrigth{
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+.logo_footer{
+    width: 20%;
+}
+
+
